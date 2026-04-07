@@ -1,0 +1,135 @@
+.footer {
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  padding: 5rem 1.5rem 2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.top {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}
+
+.brand {
+  flex: 1;
+  min-width: 220px;
+  max-width: 300px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.logoIcon {
+  color: var(--primary);
+}
+
+.tagline {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 1.5rem;
+}
+
+.social {
+  display: flex;
+  gap: 0.6rem;
+}
+
+.socialBtn {
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 700;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.socialBtn:hover {
+  border-color: var(--primary);
+  color: var(--text);
+}
+
+.links {
+  display: flex;
+  flex: 2;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.group {
+  min-width: 120px;
+}
+
+.groupHeading {
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text);
+  margin-bottom: 1rem;
+}
+
+.groupList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.groupLink {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+
+.groupLink:hover {
+  color: var(--text);
+}
+
+.bottom {
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.copy {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.legal {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.legalLink {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  transition: color 0.2s;
+}
+
+.legalLink:hover {
+  color: var(--text);
+}
